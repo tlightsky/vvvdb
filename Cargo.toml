@@ -1,5 +1,5 @@
 [package]
-name = "vvv"
+name = "vvvdb"
 version = "0.1.0"
 authors = ["TLightSky <wangchao719@gmail.com>"]
 edition = "2018"
