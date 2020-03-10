@@ -11,7 +11,7 @@ async fn index(data: web::Query<Query>) -> String {
     format!("Your query: {}", data.query)
 }
 
-use actix_web::{web, get, App, HttpResponse, HttpServer, Responder};
+use actix_web::{web, get, App, HttpServer};
 
 pub async fn start_http_server(http_port: String) -> std::io::Result<()> {
 

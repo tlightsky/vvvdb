@@ -1,11 +1,6 @@
-mod err;
-mod opt;
-mod planners;
-mod servers;
 
 use structopt::StructOpt;
-use self::opt::Opt;
-use servers::server;
+use vvvdb::{server, Opt};
 
 #[actix_rt::main]
 async fn main() -> std::io::Result<()> {
