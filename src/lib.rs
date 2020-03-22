@@ -1,6 +1,7 @@
 
 pub mod err;
 pub mod opt;
+pub mod parser;
 pub mod planners;
 pub mod servers;
 
